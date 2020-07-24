@@ -13,5 +13,5 @@ for s in sys.stdin:
     teams.append({"id":int(r[1]),"name":r[2]+" (FJCU) "})
 content.append({"teams": teams})
 
-file = open('test.json', 'w')
+file = open('teams.json', 'w')
 json.dump(list(teams), file)

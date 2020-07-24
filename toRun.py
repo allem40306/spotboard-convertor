@@ -15,5 +15,5 @@ for s in sys.stdin:
     runs.append(run)
 content.append({"runs": runs})
 
-file = open('test.json', 'w')
+file = open('runs.json', 'w')
 json.dump(list(runs), file)
